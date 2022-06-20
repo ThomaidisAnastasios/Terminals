@@ -1,0 +1,23 @@
+﻿(A1) Δεν τερματίζει κανονικά.Η εντολή a=`expr $a + 1` πρέπει να μετακινηθεί μετά 
+την ενολή do.Αλλίως δεν μπορεί να πάρει ποτέ την τιμή 6 ώστε να τερματίσει.
+
+(A2) 6 
+
+(A3) /sbin:/bin:/usr/sbin:/usr/bin:/usr/games:/usr/local/sbin:/usr/local/bin:/home/ictest00800/bin
+
+(A4) echo $PATH | cut -b 10-12 
+     n:/
+
+     echo $PATH | cut -b 27-30
+     bin:
+
+(A5) echo $PATH | cut -f 7 -d:
+     /usr/local/bin 
+     
+     echo $PATH | cut -f  -d:
+     /home/ictest00800/bin
+
+(A6) -bash: ./testexit.sh: No such file or directory
+     127
+
+(A7) ls -s Εμφανίζει τον αριθμό τον τμημάτων που χρησιμοποιούνται από κάθε αρχείο.

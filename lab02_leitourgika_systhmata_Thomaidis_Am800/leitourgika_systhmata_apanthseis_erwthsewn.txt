@@ -1,0 +1,18 @@
+﻿(A1)Το μήνυμα δεν εμφανίζεται επειδή δεν χρησιμοποιήσαμε την εντολή 
+ENABLEDELAYEXPANSION για να ενεργοποιηθεί η καθηστερημένη επέκταση μεταβλητής.
+Επίσης δεν χρησιμοποιείται setlocal της οποίας είναι η εντολή 
+ENABLEDELAYEDEXPANSION.
+
+(Α2)Εμφανίζεται μόνο το τελευταίο αρχείο.Γιατί η μεταβλητή που εμφανίζεται 
+είναι το τελευταίο αρχείο που διαβάζεται.
+
+(A3)C:\ProgramData\Oracle\Java\javapath;C:\Program Files 
+(x86)\EasyPHP-DevServer-13. 1VC11\binaries\php\php_runningversion;C:\Program 
+Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\SYSTEM32;C:\Windows;
+C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;
+C:\PROGRAM FILES (X86)\WINDOWS LIVE\SHARED;C:\Program Files (x86)\OpenVPN\bin
+
+(A4) e\Java\javapath;C:\P
+     e\Java\javapath;C:\Pr
+
+(A5)Εμφανίζει όλα τα αρχεία με τις ημερομινίες δημιουργίας του φακέλου windows.

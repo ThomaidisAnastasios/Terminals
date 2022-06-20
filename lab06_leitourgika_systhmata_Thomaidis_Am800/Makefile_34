@@ -1,0 +1,27 @@
+CC=gcc
+
+#Linking source files
+
+all: bimod.o transformMatrix.o examplegdb.o
+
+$(CC) examplegdb.o transformMatrix.o bimod.o -o exampleegdb
+
+# Compiling source files
+
+bimod.o: bimod.c
+
+$(CC) -c bimod.c
+
+transformMatrix.o: transformMatrix.c
+
+$(CC) -c transformMatrix.c
+
+examplegdb.o: examplegdb.c examplegdb.h
+
+$(CC) -c examplegdb.c
+
+clean:
+rm exmplegdb.o
+rm tranformMatrix.o
+rm bimod.o
+rm examplegdb

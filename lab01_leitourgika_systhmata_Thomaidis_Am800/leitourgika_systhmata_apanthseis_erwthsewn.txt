@@ -1,0 +1,48 @@
+﻿Eντολή:dir||Λειτουργία:Displays a list of files and subdirectories in a directory.||Ερώτηση:(A1)
+
+Eντολή:mkdir||Λειτουργία:Creates a directory.||Ερώτηση:(A2)
+
+Εντολή:cd||Λειτουργεία:Displays the name of or changes the current directory.||Ερώτηση:(A3)
+
+Εντολή:rmdir||Λειτουργεία:Removes a directory.||Ερώτηση:(A4)
+
+Εντολή:echo||Λειτουργεία:Desplays messages, or tunes command echoing on or off.||Ερώτηση:(A5)
+
+Εντολή:set||Λειτουργεία:Displays, sets, or removes Windows enviroment variables.||Ερώτηση:(A6)
+
+(A7)mkdir Lab1-1 || mkdir LAB1-2 || cd LAB1-1 || mkdir LAB1-1-1 || cd C:\Users\(user's name)\ || cd LAB1-2 || mkdir LAB1-3||
+
+(A8)cd LAB1-1 || rmdir LAB1-1-1 || cd C:\Users\(user's name)\|| rmdir LAB1-1 ||
+
+Εντολή:copy||Λειτουργεία:Copies one or more files to another location.||Ερώτηση:(A9)
+
+Εντολή:rename||Λειτουργεία:Renames a file or files.||Ερώτηση:(A10)
+
+Εντολή:erase||Λειτουργεία:Deletes one or more files.||Ερώτηση:(A11)
+
+(A12)copy c:\windows\win.ini
+
+(A14) dir /X
+
+(A15) dir /W
+
+(A16) dir /S
+
+(A17) windir=c:\Windows
+
+(A18) PROMPT=$P$G
+
+(A19)set widr=123456
+
+Εκτός από τη help μπορείτε να πάρετε πληροφορίες για κάποια εντολή
+χρησιμοποιώντας το όνομα της εντολής ακολουθούμενο από το /?=ΝΑΙ
+
+(A25)Όχι δεν υπάρχει.
+
+(A27) Έχει 3 παραμέτρους.
+
+Εντολή:pause||Λειτουργεία:Suspends processing of a batch file and displays a message.||Ερώτηση:(A28)
+
+(A29) 5
+
+(C4)Θα εμφανιστεί Hello "John Malkovic" γιατί η εντολή shift δεν επηρεάζει το πρόγραμμα επειδή δεν υπάρχουν παραπάνω από 9 παραμέτρουες για να γίνει ολίσθηση.
