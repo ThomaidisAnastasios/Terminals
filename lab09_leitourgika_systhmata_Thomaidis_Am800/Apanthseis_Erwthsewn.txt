@@ -1,0 +1,49 @@
+﻿A01) Μία κατάσταση λέμε ότι βρίσκεται σε διαδικασία Zombie όταν η διεργασία έχει 
+     ολοκληρωθεί αλλά υπάρχει ακόμα στον πίνακα των διεργασιών.
+
+A02) Χρειάζεται γιατί μπορεί να ξαναχρησιμοποιοηθεί από την θυγατρική διεργασία.
+
+A03) Γιατί μπορούν να χρησιμοποιηθούν από άλλες διεργασίες.
+
+A04) Δεν μπορεί να γίνει η κλήση της διεργασίας wait μέσω της πατρικής διεργασίας.
+
+A05) Με την εντολή : ps-xuw.
+
+A06) ictest00800 25488  0.0  0.0 16320 2164 11  R+    1:19PM 0:00.01 ps xuw
+
+A07) pipe() : Δέχεται πίνακα int fildes[] και επιστρέφει int 0 ή 1.
+
+A08) write() :  Δέχεται 3 μεταβλητές int,const,size.Επιστέφει αριθμό bytes, -1 όταν έχει 
+     error.
+ 
+A09) read() : Δέχεται 3 μεταβλητές int,const,size.Επιστέφει αριθμό bytes, -1 όταν έχει 
+     error.
+
+A10) 512 bytes Εντολή ulimit -a
+
+A11) iNumber=1364.
+
+A12) Εντολή  sysctl kern.maxfiles
+             kern.maxfiles: 20480
+
+A13) Number=254.
+     Error: Too many open files
+
+A14) Δέχεται int επιστρέφει int ή 1 για error..
+
+A15) Δέχεται 4 int και επιστρέφει 0 αν πετύχει και 1 αν αποτύχει.
+
+A16) 
+           SOCK_STREAM     Stream socket,
+           SOCK_DGRAM      Datagram socket,
+           SOCK_RAW        Raw-protocol interface,
+           SOCK_RDM        Reliably-delivered packet,
+           SOCK_SEQPACKET  Sequenced packet stream
+
+
+A17) SOCK_RDM        Reliably-delivered packet,
+
+A18) 
+     [EMFILE]           The per-process descriptor table is full.
+
+     [ENFILE]           The system file table is full.
